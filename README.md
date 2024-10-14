@@ -29,14 +29,16 @@ it includes the data processing and augmentation functionalities, plus calling a
 - `precision` 
 - ` recall` 
 - `F1-score` 
-- ` ROC-AUC` 
-5.enhacments has two enhacments to optimize the model performance which are: 
+- ` ROC-AUC`
+  
+5. enhacments has two enhacments to optimize the model performance which are: 
 - `Implement a custom loss function that combines binary cross-entropy with
  focal loss to address class imbalance.`
 - `Implement gradient accumulation to simulate larger batch sizes and study
  its impact on model performance.`
- 6.Visualization scripts for training,training_with_plateau,training_with_enhancments algorithms.
-##Execution
+
+ 6. Visualization scripts for training,training_with_plateau,training_with_enhancments algorithms.
+## Execution
 1. download the required packages by running the requirements file
 pip install -r requirements.txt
 2. Run data_processing.py file that calls the required functions to train all the algorithms and records the resutls in excel files,
